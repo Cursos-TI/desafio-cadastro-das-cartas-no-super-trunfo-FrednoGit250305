@@ -51,10 +51,29 @@ int main() {
     printf ("Digite a quantidade de locais turísticos dessa cidade : \n");
     scanf ("%i",&locais1);
     
-    
+    printf ("Digite uma letra de A até H para representar o segundo estado : \n");
+    scanf ("%c",estado2);
+
+    printf ("Digite um número de 1 até 4 para representar o código desse estado : \n");
+    scanf ("%i",&cdg2);
+
+    printf ("Digite o nome da cidade : \n");
+    scanf ("%c",&city2);
+
+    printf ("Digite a população dessa cidade : \n");
+    scanf ("%i",população2);
+
+    printf ("Digite a área dessa cidade : \n");
+    scanf ("%f",&area2);
+
+    printf ("Digite o PIB dessa cidade : \n");
+    scanf ("%f",&pib2);
+
+    printf ("Digite a quantidade de locais turísticos dessa cidade : \n");
+    scanf ("%i",&locais2);
 
     // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
+    // xibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
     return 0;

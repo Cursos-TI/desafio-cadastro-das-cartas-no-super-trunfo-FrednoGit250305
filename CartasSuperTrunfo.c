@@ -73,8 +73,25 @@ int main() {
     scanf ("%i",&locais2);
 
     // Exibição dos Dados das Cartas:
-    // xibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    // Exibição das informações das cartas cadastradas de forma clara e organizada.
+    // Exibição dos valores inseridos para cada atributo da cidade, um por linha.
+
+    printf ("Primeiro estado : %c \n",estado1);
+    printf ("Código desse estado : %c0%i \n",cdg1);
+    printf ("Cidade : %s \n",city1);
+    printf ("População : %c \n",população1);
+    printf ("Área : %f km2 \n",area1);
+    printf ("PIB : %.2f \n",pib1);
+    printf ("Quantidade de locais turísticos : %i \n",locais1);
+    
+    printf ("Segundo estado : %c \n",estado2);
+    printf ("Código desse estado : %c0%i \n",cdg2);
+    printf ("Cidade : %s \n",city2);
+    printf ("População : %c \n",população2);
+    printf ("Área : %f km2 \n",area2);
+    printf ("PIB : %.2f \n",pib2);
+    printf ("Quantidade de locais turísticos : %i \n",locais2);
+
 
     return 0;
 }

@@ -5,6 +5,7 @@
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 
 int main() {
+    
     // Definição de variáveis separadas para cada atributo da cidade.
     // Definição das variáveis para as duas cartas.
 

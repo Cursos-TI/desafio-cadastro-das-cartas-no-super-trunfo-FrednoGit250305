@@ -33,7 +33,7 @@ int main() {
     scanf ("%c",&estado1);
 
     printf ("Digite um número de 1 até 4 para representar o código desse estado : \n");
-    scanf ("%i",&cdgo1);
+    scanf ("%d",&cdgo1);
 
     printf ("Digite o nome da cidade : \n");
     scanf ("%s",&city1);
@@ -54,7 +54,7 @@ int main() {
     scanf ("%s",&estado2);
 
     printf ("Digite um número de 1 até 4 para representar o código desse estado : \n");
-    scanf ("%i",&cdgo2);
+    scanf ("%d",&cdgo2);
 
     printf ("Digite o nome da cidade : \n");
     scanf ("%s",&city2);
@@ -78,9 +78,9 @@ int main() {
     printf ("====================================== \n");
 
     printf ("Primeiro estado : %c \n",estado1);
-    printf ("Código desse estado : %c0%i \n",estado1,cdgo1);
+    printf ("Código desse estado : %c0%d \n",estado1,cdgo1);
     printf ("Cidade : %s \n",city1);
-    printf ("População : %i \n",povo1);
+    printf ("População : %i habitantes \n",povo1);
     printf ("Área : %.2f km2 \n",area1);
     printf ("PIB : %.2f \n",pib1);
     printf ("Quantidade de locais turísticos : %i \n",locais1);
@@ -88,9 +88,9 @@ int main() {
     printf ("====================================== \n");
     
     printf ("Segundo estado : %c \n",estado2);
-    printf ("Código desse estado : %c0%i \n",estado2,cdgo2);
+    printf ("Código desse estado : %c0%d \n",estado2,cdgo2);
     printf ("Cidade : %s \n",city2);
-    printf ("População : %i\n",povo2);
+    printf ("População : %i habitantes \n",povo2);
     printf ("Área : %.2f km2 \n",area2);
     printf ("PIB : %.2f \n",pib2);
     printf ("Quantidade de locais turísticos : %i \n",locais2);
